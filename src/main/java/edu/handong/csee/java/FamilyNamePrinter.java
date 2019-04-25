@@ -10,9 +10,9 @@ public class FamilyNamePrinter {
         familyNames = new String[stringNames.length];
     }
     public void printFamilyNames(){
-        for(String name : stringNames){
-            System.out.println(name);
-        }
+        // for(String name : stringNames){
+        //     System.out.println(name);
+        // }
         for(int i=0; i<stringNames.length; i++){
             familyNames[i] = stringNames[i].trim().split(" ")[1];
         }
